@@ -7,4 +7,4 @@
     * 登录注册模块路由
     * */
    Route::get('signup','UsersController@create')->name('signup');
-
+   Route::resource('users','UsersController');
